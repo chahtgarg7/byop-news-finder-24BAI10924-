@@ -18,7 +18,7 @@ public class NewsFinder {
         System.out.print("Enter topic: ");
         String query = sc.nextLine();
 
-        String apiKey = "e30b465240c24189a6a6f8de60742f2f";
+        String apiKey = "YOUR_API_KEY_HERE";
 
         try {
             String urlStr = "https://newsapi.org/v2/everything?q="
